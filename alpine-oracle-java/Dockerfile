@@ -1,8 +1,6 @@
 # AlpineLinux with a glibc-2.29-r0 and Oracle Java 8
 FROM alpine:3.8
 
-MAINTAINER Anastas Dancha <zzgfly@gmail.com>
-
 # Java Version and other ENV
 ENV JAVA_VERSION_MAJOR=8 \
     JAVA_VERSION_MINOR=261 \
